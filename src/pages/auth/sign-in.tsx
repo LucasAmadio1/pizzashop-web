@@ -36,7 +36,7 @@ export function SignIn() {
     <>
       <Helmet title="Login" />
       <div className="p-8">
-        <Button variant={'ghost'} asChild className="absolute right-8 top-8">
+        <Button variant="ghost" asChild className="absolute right-8 top-8">
           <Link to="/sign-up">Novo estabelecimento</Link>
         </Button>
 
